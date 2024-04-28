@@ -109,7 +109,7 @@ footer{
 }
 .hero-area h2{
     font-size: 5.563em;
-    background: linear-gradient(var(--yellow), var(--blue));
+    background: linear-gradient(to right, var(--yellow), var(--blue));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 0.1px #fff;
