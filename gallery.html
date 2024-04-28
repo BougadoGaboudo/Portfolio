@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+    <script defer src="anim.js"></script>
+    <title>Gallery - Bougado</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><span class="gradient">Bougado</span></a>
+            
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="project.html">Project</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    
+    <main>
+        <section class="articles">
+            <div class="articles-container">
+                <h1 class="articles-title">Artworks</h1>
+                <div class="articles-filter filter-articles">
+                    <button data-filter="*" class="filter-articles-item active" type="button">Show all</button>
+                    <button data-filter="original" class="filter-articles-item" type="button">Original</button>
+                    <button data-filter="fanart" class="filter-articles-item" type="button">Fanart</button>
+                    <button data-filter="study" class="filter-articles-item" type="button">Study</button>
+                </div>
+                <div class="articles-items">
+                    <article data-filter="original" class="articles-item article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/hny2024.jpg" alt="">
+                        </a>
+                    </article>
+                    
+                    <article data-filter="fanart" class="articles-item article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/yelanfanart.jpg" alt="">
+                        </a>
+                    </article>
+                    
+                    <article data-filter="fanart" class="articles-item-paysage article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/ayaka.jpg" alt="">
+                        </a>
+                    </article>
+
+                    <article data-filter="study" class="articles-item article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/studyfemme2.jpg" alt="">
+                        </a>
+                    </article>
+                        
+                    <article data-filter="original" class="articles-item article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/hny2023.jpg" alt="">
+                        </a>
+                    </article>
+                        
+                    <article data-filter="fanart" class="articles-item article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/ganyufanart.jpg" alt="">
+                        </a>
+                    </article>
+                        
+                    <article data-filter="study" class="articles-item article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/studyfemme1.jpg" alt="">
+                        </a>
+                    </article>
+                    
+                    <article data-filter="original" class="articles-item article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/noel.jpg" alt="">
+                        </a>
+                    </article>
+
+                    <article data-filter="study" class="articles-item article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/studyrequin.jpg" alt="">
+                        </a>
+                    </article>
+
+                    <article data-filter="original" class="articles-item-paysage article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/achille.jpg" alt="">
+                        </a>
+                    </article>
+                    
+                    <article data-filter="fanart" class="articles-item article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/keqingfanart.jpg" alt="">
+                        </a>
+                    </article>
+                    
+                    <article data-filter="study" class="articles-item article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/studyfemme3.jpg" alt="">
+                        </a>
+                    </article>
+                    
+                    <article data-filter="original" class="articles-item article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/hny2021.jpg" alt="">
+                        </a>
+                    </article>
+                    
+                    <article data-filter="fanart" class="articles-item article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/yoimiyafanart.jpg" alt="">
+                        </a>
+                    </article>
+                    
+                    <article data-filter="fanart" class="articles-item article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/jeanfanart.jpg" alt="">
+                        </a>
+                    </article>
+
+                    <article data-filter="study" class="articles-item article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/studyfemme16.jpg" alt="">
+                        </a>
+                    </article>
+                    
+                    <article data-filter="study" class="articles-item article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/studypoissonrouge.jpg" alt="">
+                        </a>    
+                    </article>
+                    
+                    <article data-filter="study" class="articles-item article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/studyfemme4.jpg" alt="">
+                        </a>
+                    </article>
+                    
+                    <article data-filter="original" class="articles-item-paysage article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/juliette.jpg" alt="">
+                        </a>
+                    </article>
+                    
+                    <article data-filter="original" class="articles-item article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/hny2022.jpg" alt="">
+                        </a>
+                    </article>
+                    
+                    <article data-filter="study" class="articles-item article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/studyfemme9.jpg" alt="">
+                        </a>    
+                    </article>
+                    
+                    <article data-filter="fanart" class="articles-item article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/jeansummer.jpg" alt="">
+                        </a>
+                    </article>
+                    
+                    <article data-filter="study" class="articles-item article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/studyhomme1.jpg" alt="">
+                        </a>
+                    </article>
+                    
+                    <article data-filter="original" class="articles-item-paysage article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/gaston.jpg" alt="">
+                        </a>
+                    </article>
+                    
+                    <article data-filter="study" class="articles-item article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/studypiaf.jpg" alt="">
+                        </a>    
+                    </article>
+                    
+                    <article data-filter="fanart" class="articles-item article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/raidenfanart.jpg" alt="">
+                        </a>
+                    </article>
+                    
+                <article data-filter="study" class="articles-item article hiddenX">
+                    <a href="#" class="article-image">
+                        <img src="img/studyhomme2.jpg" alt="">
+                    </a>
+                </article>
+                    
+                    <article data-filter="original" class="articles-item-paysage article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/achillex3.jpg" alt="">
+                        </a>
+                    </article>
+                    
+                    <article data-filter="original" class="articles-item-paysage article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/juliettex3.jpg" alt="">
+                        </a>
+                    </article>
+                    
+                    <article data-filter="study" class="articles-item article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/studyfemme10.jpg" alt="">
+                        </a>    
+                    </article>
+                                                          
+                    <article data-filter="study" class="articles-item article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/studypaysage4.jpg" alt="">
+                        </a>
+                    </article>
+                    
+                    <article data-filter="original" class="articles-item-paysage article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/gastonx3.jpg" alt="">
+                        </a>
+                    </article>
+                    
+                    <article data-filter="fanart" class="articles-item article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/ayaka2022.jpg" alt="">
+                        </a>
+                    </article>
+                    
+                    <article data-filter="fanart" class="articles-item article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/gfsakura.jpg" alt="">
+                        </a>
+                    </article>
+                    
+                    <article data-filter="fanart" class="articles-item-paysage article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/nobara.jpg" alt="">
+                        </a>
+                    </article>
+                    
+                    <article data-filter="study" class="articles-item article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/studyfemme8.jpg" alt="">
+                        </a>
+                    </article>
+                    
+                    <article data-filter="fanart" class="articles-item article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/yaefanart.jpg" alt="">
+                        </a>
+                    </article>
+                    
+                    <article data-filter="study" class="articles-item article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/studypingouin.jpg" alt="">
+                        </a>    
+                    </article>
+                    
+                    <article data-filter="fanart" class="articles-item-paysage article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/xianglingfanart.jpg" alt="">
+                        </a>
+                    </article>
+                    
+                    <article data-filter="study" class="articles-item article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/studyfemme15.jpg" alt="">
+                        </a>    
+                    </article>
+                    
+                    <article data-filter="study" class="articles-item article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/studyfemme18.jpg" alt="">
+                        </a>    
+                    </article>
+                                   
+                    <article data-filter="study" class="articles-item article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/studypaysage2.jpg" alt="">
+                        </a>    
+                    </article>
+                    
+                    <article data-filter="original" class="articles-item article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/noel2022.jpg" alt="">
+                        </a>
+                    </article>
+
+                    <article data-filter="fanart" class="articles-item article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/ayakakimono.jpg" alt="">
+                        </a>
+                    </article>
+                    
+                    <article data-filter="study" class="articles-item article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/studyours.jpg" alt="">
+                        </a>    
+                    </article>
+                                        
+                    <article data-filter="original" class="articles-item article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/ocsummer.jpg" alt="">
+                        </a>
+                    </article>
+                    
+                    <article data-filter="original" class="articles-item article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/summer.jpg" alt="">
+                        </a>
+                    </article>
+                    
+                    <article data-filter="fanart" class="articles-item-paysage article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/gfmeca.jpg" alt="">
+                        </a>
+                    </article>
+                    
+                    <article data-filter="fanart" class="articles-item article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/ganyu2021.jpg" alt="">
+                        </a>
+                    </article>
+                    
+                    <article data-filter="study" class="articles-item article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/studypaysage6.jpg" alt="">
+                        </a>    
+                    </article>
+                    
+                    <article data-filter="study" class="articles-item article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/studylapin.jpg" alt="">
+                        </a>    
+                    </article>
+              
+                    <article data-filter="fanart" class="articles-item article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/ayaka2021.jpg" alt="">
+                        </a>
+                    </article>
+                    
+                    <article data-filter="original" class="articles-item-paysage article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/ocnuage.jpg" alt="">
+                        </a>
+                    </article>
+                    
+                    <article data-filter="study" class="articles-item article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/studyhomme3.jpg" alt="">
+                        </a>    
+                    </article>
+                    
+                    <article data-filter="original" class="articles-item article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/noel2020.jpg" alt="">
+                        </a>
+                    </article>
+                    
+                    <article data-filter="fanart" class="articles-item-paysage article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/keqing2022.jpg" alt="">
+                        </a>
+                    </article>
+                    
+                    <article data-filter="fanart" class="articles-item-paysage article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/gfmap.jpg" alt="">
+                        </a>
+                    </article>
+
+                    <article data-filter="original" class="articles-item-paysage article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/occiel.jpg" alt="">
+                        </a>
+                    </article> 
+           
+                    <article data-filter="fanart" class="articles-item article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/hnygf.jpg" alt="">
+                        </a>
+                    </article>
+                    
+                    <article data-filter="study" class="articles-item article hiddenX">
+                        <a href="#" class="article-image">
+                            <img src="img/studypaysage3.jpg" alt="">
+                        </a>    
+                    </article>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <hr>
+    <footer>
+        <div class="footer">
+            <div class="contact">
+                <h6>Contact</h6>
+                <p>bougadogaboudo@gmail.com</p>
+            </div>
+            <div class="social">
+                <h6>Social</h6>
+                <a href="https://twitter.com/BougadoGaboudo" target="_blank"><img class="logoRS" src="img/twitter.png" alt="Logo Twitter"></a>
+                <a href="https://www.pixiv.net/en/users/18819644" target="_blank"><img class="logoRS" src="img/pixiv.jpg" alt="Logo Pixiv"></a>
+                <a href="https://www.instagram.com/bougado.gaboudo/" target="_blank"><img class="logoRS" src="img/insta.png" alt="Logo Instagram"></a>
+                <a href="https://www.youtube.com/c/BougadoGaboudo" target="_blank"><img class="logoRS" src="img/youtube.png" alt="Logo Youtube"></a>
+            </div>
+        </div>
+        <div class="cp"><p>2024 © Bougado</p></div>
+    </footer>
+    
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+</body>
+</html>
