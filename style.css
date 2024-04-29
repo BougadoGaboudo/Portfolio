@@ -127,6 +127,7 @@ footer{
 
 /* ABOUT */
 
+.logo-size{width: 300px;}
 .about{
     position: relative;
     display: flex;
